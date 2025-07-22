@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Aftaab | Social Booster</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #000;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1rem;
+      z-index: 999;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .offer-banner {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .offer-banner img {
+      max-width: 220px;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .offer-banner img:hover {
+      transform: scale(1.1);
+    }
+
+    .sample {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 2rem;
+      text-align: center;
+      width: 250px;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: #555;
+    }
+
+    .counter {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #111;
+    }
+
+    .label {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    .pricing-section {
+      margin-top: 4rem;
+    }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .price-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .price-card h4 {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+
+    .price-card p {
+      font-size: 0.95rem;
+      margin: 0.3rem 0;
+    }
+
+    .bonus {
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #d40000;
+      text-align: center;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .order-btn {
+      display: inline-block;
+      background: #25d366;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      margin: 2rem auto;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .order-btn:hover {
+      background: #1ebc59;
+    }
+
+    .slogan {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #111;
+      margin-top: 2rem;
+    }
+
+    @media(max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>🚀 Your Fame Is Our First Priority</nav>
+
+  <header>
+    <h1>The Aftaab</h1>
+    <p>🚀 𝕋𝕚𝕜𝕥𝕠𝕜 𝔽𝕠𝕝𝕝𝕠𝕨𝕖𝕣𝕤 𝔸ℕ𝔻 𝕃𝕚𝕜𝕖𝕤 🚀</p>
+  </header>
+
+  <section class="section">
+    <div class="offer-banner">
+      <img src="offer.png" alt="25% Off Special Offer">
+    </div>
+
+    <h2 style="text-align:center;">📊 Sample Growth Results</h2>
+    <div class="sample">
+      <div class="card">
+        <h3>TikTok Followers</h3>
+        <div class="counter" data-target="50000">0</div>
+        <div class="label">from 100 to 50,000+</div>
+      </div>
+
+      <div class="card">
+        <h3>TikTok Likes</h3>
+        <div class="counter" data-target="1200000">0</div>
+        <div class="label">from 1,000 to 1.2M+</div>
+      </div>
+
+      <div class="card">
+        <h3>Viral Post Reach</h3>
+        <div class="counter" data-target="250000">0</div>
+        <div class="label">likes on a single post</div>
+      </div>
+    </div>
+
+    <div class="slogan">Your Fame Is Our First Priority 🚀</div>
+
+    <a class="order-btn" href="https://wa.me/254722919853" target="_blank">💬 Order Now on WhatsApp</a>
+  </section>
+
+  <section class="section pricing-section">
+    <h2 style="text-align:center; margin-bottom: 2rem;">💸 Pricing</h2>
+    <div class="pricing-grid">
+
+      <div class="price-card">
+        <h4>📌 TikTok Followers</h4>
+        <p>100 - 50/=</p>
+        <p>200 - 50/=</p>
+        <p>300 - 50/=</p>
+        <p>400 - 90/=</p>
+        <p>500 - 150/=</p>
+        <p>1K - 250/=</p>
+      </div>
+
+      <div class="price-card">
+        <h4>📌 TikTok Likes</h4>
+        <p>100 - 40/=</p>
+        <p>200 - 50/=</p>
+        <p>300 - 60/=</p>
+        <p>400 - 70/=</p>
+        <p>500 - 80/=</p>
+        <p>1K - 100/=</p>
+      </div>
+
+      <div class="price-card">
+        <h4>📌 Instagram Followers</h4>
+        <p>250 - 130/=</p>
+        <p>500 - 260/=</p>
+        <p>1K - 320/=</p>
+        <p>2K - 640/=</p>
+      </div>
+
+      <div class="price-card">
+        <h4>📌 Instagram Likes</h4>
+        <p>1K - 100/=</p>
+        <p>2K - 150/=</p>
+        <p>3K - 200/=</p>
+        <p>4K - 250/=</p>
+        <p>5K - 300/=</p>
+      </div>
+
+    </div>
+
+    <div class="bonus">🎁 FREE 10K views with every like order!</div>
+  </section>
+
+  <div class="section footer">
+    🚫 No password needed • DM +254722919853 to order • Powered by Craze_Tonic
+  </div>
+
+  <script>
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach(counter => {
+      counter.innerText = '0';
+      const update = () => {
+        const target = +counter.getAttribute('data-target');
+        const current = +counter.innerText.replace(/,/g, '');
+        const step = target / 100;
+
+        if (current < target) {
+          counter.innerText = Math.ceil(current + step).toLocaleString();
+          setTimeout(update, 20);
+        } else {
+          counter.innerText = target.toLocaleString();
+        }
+      };
+      update();
+    });
+  </script>
+
+</body>
+</html>
